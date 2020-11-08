@@ -1,0 +1,68 @@
+body {
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Secular One', sans-serif;
+	display: flex;
+	align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.wrapper {
+	display: flex;
+	align-items: center;
+}
+.block {
+	position: relative;
+	margin-right: 10px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border-top: 16px solid #261f0f;
+	border-left: 16px solid #261f0f;
+	border-bottom: 16px solid #261f0f;
+	border-right: 16px solid transparent;
+
+}
+.small-block {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0; 
+	height: 0;
+	border-right: 25px solid #00adff;
+	border-top: 25px solid transparent;
+	border-left: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	letter-spacing: 2px;
+}
+.text-title {
+	color: #261f0f;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.text-desc {
+	display: flex;
+}
+.blue-text {
+	color: #00adff;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.other-text {
+	padding: 3px 0 0 4px;
+	letter-spacing: 0;
+	color: #261f0f;
+	font-size: 9px;
+	text-transform: uppercase;
+}
